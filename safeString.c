@@ -25,7 +25,7 @@ void safe_strcat( char *dest, size_t dlen, const char *src, size_t slen )
 } 
 
 // add ,more to the dest if you need a comma.
-void comma_more( char *dest, size_t dlen, const char *src, size_t slen ) 
+void safe_comma_more( char *dest, size_t dlen, const char *src, size_t slen ) 
 { 
       if ( (dlen) && (slen) ) { 
         if (*dest) {
