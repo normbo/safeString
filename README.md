@@ -1,0 +1,2 @@
+# safeString
+safe string library
